@@ -1,0 +1,26 @@
+{
+  "name": "ShoppingCart_tests_with_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "dinero.js": "^1.9.1",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
